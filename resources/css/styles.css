@@ -1,0 +1,187 @@
+
+
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    width:95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.header {
+ display: flex;
+ align-content: space-between;
+ margin-top: 0;
+ flex-flow: row wrap;
+}
+
+a.nav {
+ display: flex;    
+ z-index: 1;
+ font-family: 'Aldrich', sans-serif;
+ font-style: oblique;
+ color: darkslategray;
+ text-decoration: overline;
+ 
+}
+
+.nav {
+ display:flex;
+ flex-grow: 1;
+ align-content: flex-end;
+ align-items: flex-end;
+ margin-left: .5em;
+ margin-right: .5em;
+margin-top: .5em;
+}
+
+img.navlogo {
+    width: 210px;
+    height: 70px;
+    align-content: flex-start; 
+    vertical-align: auto;
+    z-index: 1;
+    margin-right: 6em;
+    margin-left: 1.5em;
+    
+}
+
+h1{
+    font-family: 'Aldrich', sans-serif;
+    font-style: oblique;
+    color: white;
+    z-index:5;
+    font-size: 32px;
+    vertical-align: text-top;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: .5em;
+    
+}
+
+h2 {
+    font-size: 42px;
+    justify-content: space-around;
+    margin: 1em auto;
+    margin-bottom: 50px;
+    font-family: 'Aldrich', sans-serif;
+    text-decoration: overline;
+   
+}
+
+p{
+    font-family: 'Aldrich', sans-serif;
+    font-style: oblique;
+    color: white;
+    font-size: 18px;
+    width: 88%;
+    margin: 0 auto;
+    padding: .5em;
+}
+    
+
+.backgroundimageblock {
+  z-index: 1;
+  display: block;
+  position: relative;
+}
+
+img.bgimg {
+  z-index: 1;
+  display: block;
+  width: 75%;
+  max-width: 30em;
+  min-width: 18em;
+  height: auto;
+  align-content: center;
+  margin: auto;       
+}
+
+a {
+    font-size: 18px;
+}
+
+img.me{
+    width: 88%;
+    height:auto;
+    margin: auto;
+    border: 1em solid black;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    background-color: darkgrey;
+    min-width: 13em;
+    height: auto;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    background-image: url("contentbg.jpg");
+    text-align: center;
+}
+
+.contactbuttons {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: darkgrey;
+    min-width: 12em;
+    height: auto;
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    justify-content: space-around;
+    padding: 1em;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2px;
+    margin: auto;
+     
+}
+.gallery {
+    display: flex;
+    flex-flow: column;
+    min-width: 15em;
+    height: auto;
+    margin: 0 auto;
+    align-content: center;
+}
+img.port {
+    display: flex;
+    width: 75%;
+    max-width: 50em;
+    min-width: 20em;
+    height: auto;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 3px 4px darkgrey;
+    margin-bottom: 100px
+}
+
+.foot {
+  display: block;
+  background-color: black;
+  position: absolute;
+  height: 3em;
+  width: 100%;
+  text-align: center;
+  align-items: flex-end; 
+    
+}
+
+.footer {
+  margin-bottom: 1px;   
+}
+
+img.port {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+img.port:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+}
